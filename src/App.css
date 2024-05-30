@@ -9,7 +9,7 @@
     padding: 1rem;
     margin: 1rem;
     background-color: #ebebeb;
-    border-radius: 20px;
+    border-radius: 0.5rem;
     box-shadow: 8px 6px 16px -1px rgba(0,0,0,0.75);
     -webkit-box-shadow: 8px 6px 16px -1px rgba(0,0,0,0.75);
     -moz-box-shadow: 8px 6px 16px -1px rgba(0,0,0,0.75);
@@ -21,11 +21,18 @@
     border-radius: 100%;
 }
 
+.avatar {
+    position: relative;
+    width: 200px;
+    height: 200px;
+}
+
 .new {
     background-color: cyan;
     position: absolute;
     text-transform: uppercase;
     font-weight: bold;
+    border-radius: 0.5rem;
     padding: 0.1rem 0.4rem;
     top: 10%;
     left: 70%;
